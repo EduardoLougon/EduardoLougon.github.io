@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reflexão - "Que Horas Ela Volta"</title>
+  <script src="scripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <section id="home">
+    <header>
+      <h1>Que Horas Ela Volta</h1>
+      <label>Reflexão do Filme</label>
+    </header>
+    <nav>
+      <div>
+        <a href="#filme"><button id="nav-buttons">FILME</button></a>
+        <a href="#pontos"><button id="nav-buttons">CRÍTICAS</button></a>
+        <a href="#reflexao"><button id="nav-buttons">REFLEXÃO</button></a>
+      </div>
+    </nav>
+  </section>
+
+  <section id="filme">
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/pt/7/78/Que_horas_ela_volta_ver3_xlg.jpg" alt="Poster do Filme 'Que Horas Ela Volta'" id="poster">
+      <figcaption>Poster de Que Horas Ela Volta (2015)</figcaption>
+    </figure>
+    <div id="artFilme">
+      <h2>O Filme</h2>
+      <p style="font-size: 25px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus. Odio delectus, saepe corrupti similique ullam commodi voluptatem iure unde inventore, dignissimos assumenda, earum iste distinctio! Facilis sed voluptas natus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti a natus laudantium alias ea expedita sit veniam ullam aspernatur ipsam. Dolorum at autem repellat ipsam eum voluptatum aspernatur hic nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ab placeat eaque nam repellat modi ea facere veniam totam eligendi saepe nemo optio fugit accusamus, voluptate neque et nulla tenetur. </p>
+    </div>
+  </section>
+
+  <section id="pontos">
+    <div id = 'grid'>
+      <button id="topics" onclick="updateBox('desigualdade')">
+        <h3>DESIGUALDADE SOCIAL</h3>
+        <img src="/img/desigualdade.png" alt="icone desigualdade" style="height: 100px;">
+        <h4>SABER MAIS</h4>
+      </button> <!-- Desigualdade Social -->
+
+      <button id="topics" onclick="updateBox('patriarcal')">
+        <h3>BRASIL PATRIARCAL</h3>
+        <img src="/img/patriarcal.png" alt="icone patriarcal" style="height: 100px;">
+        <h4>SABER MAIS</h4>
+      </button> <!-- Brasil Patriarcal -->
+      
+      <button id="topics" onclick="updateBox('papeis')">
+        <h3>PAPEIS SOCIAIS</h3>
+        <img src="/img/papeis.png" alt="icone papeis" style="height: 100px;">
+        <h4>SABER MAIS</h4>
+      </button> <!-- Papeis Sociais -->
+
+      <button id="topics" onclick="updateBox('segregacao')">
+        <h3>SEGREGAÇÃO</h3>
+        <img src="/img/segregacao.png" alt="icone segregacao" style="height: 100px;">
+        <h4>SABER MAIS</h4>
+      </button> <!-- Segregação -->
+    </div>
+
+      <fieldset>
+        <legend id="topic">Desigualdade Social</legend>
+        <p id="desc">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti a natus laudantium alias ea expedita sit veniam ullam aspernatur ipsam. Dolorum at autem repellat ipsam eum voluptatum aspernatur hic nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ab placeat eaque nam repellat modi ea facere veniam totam eligendi saepe nemo optio fugit accusamus, voluptate neque et nulla tenetur.
+        </p>
+      </fieldset>
+  </section>
+
+  <img src="/img/banner.jpg" alt="" style="margin-top: 50px; margin-bottom: 50px; width: 100%;">
+
+  <section id="reflexao">
+    <figure style="float: right;">
+      <img src="/img/reflexao.png" alt="Icone Reflexão'">
+    </figure>
+    <div id="artReflexao">
+      <h2>Reflexão</h2>
+      <p style="font-size: 25px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus. Odio delectus, saepe corrupti similique ullam commodi voluptatem iure unde inventore, dignissimos assumenda, earum iste distinctio! Facilis sed voluptas natus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti a natus laudantium alias ea expedita sit veniam ullam aspernatur ipsam. Dolorum at autem repellat ipsam eum voluptatum aspernatur hic nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ab placeat eaque nam repellat modi ea facere veniam totam eligendi saepe nemo optio fugit accusamus, voluptate neque et nulla tenetur.</p>
+    </div>
+  </section>
+
+  <footer>
+    Produzido por Eduardo Lougon (2M1) para Vitor, professor de Geografia
+  </footer>
+</body>
+</html>
