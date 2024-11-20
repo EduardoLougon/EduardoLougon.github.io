@@ -92,7 +92,6 @@ button {
 }
 
 #artFilme {
-  
   margin-top: 10px;
   padding-right: 50px;
 }
@@ -125,6 +124,7 @@ figcaption {
   width: 220px;
   height: 220px;
   background-color: white;
+  color: black;
   border-bottom-width: 100px;
   border-bottom: solid #d4b090;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
