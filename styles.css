@@ -17,9 +17,9 @@ body::-webkit-scrollbar-track{
 }
 
 body::-webkit-scrollbar-thumb{
-  background: linear-gradient(180deg, #d4b090 0%, #f8eee6 100%); /* altere a cor da barra aqui */
-  border-radius: 10px; /* altere o arredondamento da barra aqui ou remova */
-  border: 2px solid ghostwhite; /* altere a cor da borda aqui */
+  background: linear-gradient(180deg, #cea682 50%, #f8eee6 100%); /* altere a cor da barra aqui */
+  border-radius: 0; /* altere o arredondamento da barra aqui ou remova */
+  border: none; /* altere a cor da borda aqui */
 }
 
 #home {
