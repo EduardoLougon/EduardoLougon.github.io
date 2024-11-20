@@ -94,13 +94,14 @@ button {
 #artFilme {
   text-align: justify;
   margin-top: 10px;
-  margin-left: 400px;
-  margin-right: 45px;
-  max-height: 550px;
+  padding-right: 50px;
 }
 
 #filme {
   padding-bottom: 5em;
+  padding-top: 40px;
+  display: flex;
+  height: max-content;
 }
 
 h2 {
@@ -178,6 +179,5 @@ footer {
 
 .artigo {
   font-size: 23px;
-  max-width: 550px;
   max-height: 550px;
 }
