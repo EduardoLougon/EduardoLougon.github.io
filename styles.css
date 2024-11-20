@@ -107,6 +107,7 @@ button {
 h2 {
   font-size: 40px;
   font-family: 'Franklin Gothic Medium';
+  margin-top: 0;
 }
 
 figcaption {
