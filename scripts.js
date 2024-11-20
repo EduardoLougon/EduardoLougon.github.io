@@ -25,3 +25,4 @@ function updateBox(topic) {
   }
   
 }
+

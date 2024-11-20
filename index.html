@@ -2,81 +2,111 @@
 <html>
 <head>
   <title>Reflexão - "Que Horas Ela Volta"</title>
-  <script src="scripts.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+  
   <section id="home">
-    <header>
-      <h1>Que Horas Ela Volta</h1>
-      <label>Reflexão do Filme</label>
-    </header>
-    <nav>
-      <div>
-        <a href="#filme"><button id="nav-buttons">FILME</button></a>
-        <a href="#pontos"><button id="nav-buttons">CRÍTICAS</button></a>
-        <a href="#reflexao"><button id="nav-buttons">REFLEXÃO</button></a>
+    <div class="page">
+      <header>
+        <h1>Que Horas Ela Volta</h1>
+        <label>Reflexão do Filme</label>
+      </header>
+      <nav>
+        <div>
+          <a href="#filme"><button id="nav-buttons">FILME</button></a>
+          <a href="#pontos"><button id="nav-buttons">CRÍTICAS</button></a>
+          <a href="#reflexao"><button id="nav-buttons">REFLEXÃO</button></a>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <div class="page">
+    <section id="filme">
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/7/78/Que_horas_ela_volta_ver3_xlg.jpg" alt="Poster do Filme 'Que Horas Ela Volta'" id="poster">
+        <figcaption>Poster de Que Horas Ela Volta (2015)</figcaption>
+      </figure>
+      <div id="artFilme">
+        <h2>O Filme</h2>
+        <p style="font-size: 25px;">O filme, dirigido por Anna Muylaert, retrata a história de Val, uma empregada doméstica nordestina que trabalha para uma família da classe alta de São Paulo. Enquanto dedicava sua vida cuidando da casa e do filho, Fabinho, dos patrões, ela teve que deixar sua própria filha em sua cidade natal. Entretanto, com a chegada do vestibular de arquitetura, Jéssica viaja para a capital paulistana para estudar e viver com a mãe com o objetivo de passar na avaliação. Sua visita modifica completamente os limites socioculturais com bases preconceituosas da casa, levantando questões sobre tópicos como: desigualdade social e de gênero, papeis sociais e segregação. Ao final, Val é convencida por sua filha que o ambiente em que viveu por décadas não é cordial e acaba se demitindo para ser a mãe que nunca foi para sua filha e avó. Vale citar também que durante a obra há várias cenas simbólicas que retratam a transição da perspectiva de Val, que valem muito a pena assistir, como a primeira vez que ela entra na piscina dos patrões. </p>
       </div>
-    </nav>
-  </section>
-
-  <section id="filme">
-    <figure>
-      <img src="https://upload.wikimedia.org/wikipedia/pt/7/78/Que_horas_ela_volta_ver3_xlg.jpg" alt="Poster do Filme 'Que Horas Ela Volta'" id="poster">
-      <figcaption>Poster de Que Horas Ela Volta (2015)</figcaption>
-    </figure>
-    <div id="artFilme">
-      <h2>O Filme</h2>
-      <p style="font-size: 25px;">O filme, dirigido por Anna Muylaert, retrata a história de Val, uma empregada doméstica nordestina que trabalha para uma família da classe alta de São Paulo. Enquanto dedicava sua vida cuidando da casa e do filho, Fabinho, dos patrões, ela teve que deixar sua própria filha em sua cidade natal. Entretanto, com a chegada do vestibular de arquitetura, Jéssica viaja para a capital paulistana para estudar e viver com a mãe com o objetivo de passar na avaliação. Sua visita modifica completamente os limites socioculturais com bases preconceituosas da casa, levantando questões sobre tópicos como: desigualdade social e de gênero, papeis sociais e segregação. Ao final, Val é convencida por sua filha que o ambiente em que viveu por décadas não é cordial e acaba se demitindo para ser a mãe que nunca foi para sua filha e avó. Vale citar também que durante a obra há várias cenas simbólicas que retratam a transição da perspectiva de Val, que valem muito a pena assistir, como a primeira vez que ela entra na piscina dos patrões. </p>
-    </div>
-  </section>
-
-  <section id="pontos">
-    <div id = 'grid'>
-      <button id="topics" onclick="updateBox('desigualdade')">
-        <h3>DESIGUALDADE SOCIAL</h3>
-        <img src="desigualdade.png" alt="icone desigualdade" style="height: 120px;">
-      </button>
-
-      <button id="topics" onclick="updateBox('patriarcal')">
-        <h3>BRASIL PATRIARCAL</h3>
-        <img src="patriarcal.png" alt="icone patriarcal" style="height: 120px;">
-      </button>
-      
-      <button id="topics" onclick="updateBox('papeis')">
-        <h3>PAPEIS SOCIAIS</h3>
-        <img src="papeis.png" alt="icone papeis" style="height: 120px;">
-      </button>
-
-      <button id="topics" onclick="updateBox('segregacao')">
-        <h3>SEGREGAÇÃO</h3>
-        <img src="segregacao.png" alt="icone segregacao" style="height: 120px;">
-      </button>
-    </div>
-
-      <fieldset>
-        <legend id="topic">Escolha um Tópico</legend>
-        <p id="desc">
-          Clique em um dos tópicos acima para obter mais informações sobre eles.
-        </p>
-      </fieldset>
-  </section>
-
-  <img src="banner.jpg" alt="" style="margin-top: 50px; margin-bottom: 50px; width: 100%;">
-
-  <section id="reflexao">
-    <figure style="float: right;">
-      <img src="reflexao.png" alt="Icone Reflexão'">
-    </figure>
-    <div id="artReflexao">
-      <h2>Reflexão</h2>
-      <p style="font-size: 25px;">"Que Horas Ela Volta" é um filme que nos convida a refletir sobre a desigualdade social, as hierarquias e papeis sociais da mulher na sociedade brasileira. Por meio de simbolismos, a obra nos faz repensar sobre as possibilidades de mudança e resistência contra esses padrões arquitetados em nossa vivência. Nesse sentido, o filme funciona como um espelho das injustiças presentes no Brasil e como um lembrete de que mudanças só são possíveis através do questionamento do "normal", que é baseado em relações ausentes de dignidade e respeito mútuo. Portanto, ele abre nossas mentes a pensar: "Será que a minha casa também é a casa de dona Bárbara?" e "Como posso mudar isso?" </p>
-    </div>
-  </section>
+    </section>
+  
+    <section id="pontos">
+      <div id = 'grid'>
+        <button id="topics" onclick="updateBox('desigualdade')">
+          <h3>DESIGUALDADE SOCIAL</h3>
+          <img src="desigualdade.png" alt="icone desigualdade" style="height: 120px;">
+        </button>
+  
+        <button id="topics" onclick="updateBox('patriarcal')">
+          <h3>BRASIL PATRIARCAL</h3>
+          <img src="patriarcal.png" alt="icone patriarcal" style="height: 120px;">
+        </button>
+        
+        <button id="topics" onclick="updateBox('papeis')">
+          <h3>PAPEIS SOCIAIS</h3>
+          <img src="papeis.png" alt="icone papeis" style="height: 120px;">
+        </button>
+  
+        <button id="topics" onclick="updateBox('segregacao')">
+          <h3>SEGREGAÇÃO</h3>
+          <img src="segregacao.png" alt="icone segregacao" style="height: 120px;">
+        </button>
+      </div>
+  
+        <fieldset>
+          <legend id="topic">Escolha um Tópico</legend>
+          <p id="desc">
+            Clique em um dos tópicos acima para obter mais informações sobre eles.
+          </p>
+        </fieldset>
+    </section>
+  
+    <img src="banner.jpg" alt="" style="margin-top: 50px; margin-bottom: 50px; width: 100%;">
+  
+    <section id="reflexao">
+      <figure style="float: right;">
+        <img src="reflexao.png" alt="Icone Reflexão'">
+      </figure>
+      <div id="artReflexao">
+        <h2>Reflexão</h2>
+        <p style="font-size: 25px;">"Que Horas Ela Volta" é um filme que nos convida a refletir sobre a desigualdade social, as hierarquias e papeis sociais da mulher na sociedade brasileira. Por meio de simbolismos, a obra nos faz repensar sobre as possibilidades de mudança e resistência contra esses padrões arquitetados em nossa vivência. Nesse sentido, o filme funciona como um espelho das injustiças presentes no Brasil e como um lembrete de que mudanças só são possíveis através do questionamento do "normal", que é baseado em relações ausentes de dignidade e respeito mútuo. Portanto, ele abre nossas mentes a pensar: "Será que a minha casa também é a casa de dona Bárbara?" e "Como posso mudar isso?" </p>
+      </div>
+    </section>
+  </div>
 
   <footer>
-    Produzido por Eduardo Lougon (2M1) para Vitor, professor de Geografia
+    <div class="page">
+      Produzido por Eduardo Lougon (2M1) para Vitor, professor de Geografia
+    </div>
   </footer>
+
+  <script src="scripts.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.22/bundled/lenis.min.js"></script>
+
+  <script>
+      const lenis = new Lenis({
+        duration: 1.2,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+        orientation: 'vertical',
+        gestureOrientation: 'vertical',
+        smoothWheel: true,
+        wheelMultiplier: 1,
+        smoothTouch: false,
+        touchMultiplier: 2,
+        infinite: false,
+      })
+
+      function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+      }
+
+      requestAnimationFrame(raf)
+  </script>
 </body>
 </html>
